@@ -1,6 +1,6 @@
-# LWC Boilerplate Example
+# DreamCRV
 
-The **LWC Boilerplate** example contains the minimum code needed to get a simple Single Page Application (SPA) on LWR running.
+![DreamCRV Screenshot](src/assets/screenshot.png)
 
 ## Project Setup
 
@@ -65,6 +65,5 @@ Open the site at [http://localhost:3000](http://localhost:3000)
 ```bash
 yarn build # dev:prod-compat for AMD format
 yarn start
-```
+```]
 
-Open the site at [http://localhost:3000](http://localhost:3000)
