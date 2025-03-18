@@ -1,6 +1,6 @@
 # DreamCRV
 
-![DreamCRV Screenshot](src/assets/screenshot.png)
+![DreamCRV Screenshot](src/assets/DreamCRVSS.png)
 
 ## Project Setup
 
