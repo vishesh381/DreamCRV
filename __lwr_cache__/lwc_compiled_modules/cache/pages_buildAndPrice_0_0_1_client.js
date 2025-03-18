@@ -129,6 +129,10 @@ class BuildAndPrice extends LightningElement {
   }
   submitHander() {
     console.log("Form Submitted!!");
+    this.template.querySelector('components-lead-form').formSubmit();
+  }
+  get description() {
+    return `Customer is looking for CRV ${this.selectedVariant.variant} of color ${this.selectedColorName}`;
   }
 
   //method to animate the price
@@ -149,7 +153,7 @@ _registerDecorators(BuildAndPrice, {
 });
 const __lwc_component_class_internal = _registerComponent(BuildAndPrice, {
   tmpl: _tmpl,
-  sel: "-build-and-price",
+  sel: "pages-build-and-price",
   apiVersion: 63
 });
 export default __lwc_component_class_internal;
